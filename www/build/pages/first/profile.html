@@ -1,0 +1,73 @@
+
+<script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+<ion-toolbar dark>
+  <ion-title>Toolbar</ion-title>
+</ion-toolbar>
+<!--
+<div class="profileBackground"><img class="profileImage" src="https://pixabay.com/static/uploads/photo/2015/10/01/21/39/background-image-967820_960_720.jpg"/></div>
+<h2 class="profileName"><span>A Movie in the Park:<span class='spacer'></span><br /><span class='spacer'></span>Kung Fu Panda</span></h2>
+-->
+<!--
+
+///EMAIL
+<ion-content style="overflow-y: hidden; overflow-x: hidden;background-color:white">
+
+
+<ion-list style="
+    margin-bottom: 0px;padding:1px;background-color:white
+">
+<ion-item>
+<ion-label>From</ion-label>
+  <ion-select [(ngModel)]="gaming">
+    <ion-option value="nes">NES</ion-option>
+    <ion-option value="n64">Nintendo64</ion-option>
+    <ion-option value="ps">PlayStation</ion-option>
+    <ion-option value="genesis">Sega Genesis</ion-option>
+    <ion-option value="saturn">Sega Saturn</ion-option>
+    <ion-option value="snes">SNES</ion-option>
+  </ion-select>
+</ion-item>
+ 
+  <ion-item>
+    <ion-label>To:</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Subject:</ion-label>
+    <ion-input type="password"></ion-input>
+  </ion-item>
+  <ion-item>
+
+  <ion-label stacked>Message</ion-label>
+  <ion-textarea rows="21" [(ngModel)]="msg"></ion-textarea></ion-item>
+
+</ion-list>
+
+<button fab fab-right fab-bottom>FAB</button>
+</ion-content>	
+
+
+
+//PROFILE
+<div class="profileBackground"><img class="profileImage" src="https://pixabay.com/static/uploads/photo/2015/10/01/21/39/background-image-967820_960_720.jpg"/><h2 class="profileName"><span>A Movie in the Park:<span class='spacer'></span><br /><span class='spacer'></span>Kung Fu Panda</span></h2>
+
+</div>
+-->
+
+<ion-content>
+
+<div class="page1"><center>
+<img class="logo" src="/logo.png"/> 
+
+<button full (click)="loginaskp()"  style="padding:5vh;font-size:3vh" class="whichLoginButton">Login with ASKP Account</button>
+<button full danger  style="padding:5vh;font-size:3vh"  (click)="logingoogle()" class="whichLoginButton">Login with Google+</button>
+<button clear><pre style="color:black">Don't have an Account? </pre>Sign up Now!</button>
+</center>
+</div>
+
+</ion-content>
+
+<ion-toolbar class="noBackground" position="bottom" style="background-color:orange"><center><ion-title>Copyright C 2016 ASKP</ion-title></center></ion-toolbar>
+
+

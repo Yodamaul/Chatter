@@ -1,0 +1,42 @@
+<script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+
+
+<ion-toolbar dark>
+  <ion-title>Global</ion-title>
+  <ion-buttons start>
+    <button (click)="openMenu()">
+      <ion-icon name="contact"></ion-icon>
+    </button>
+  </ion-buttons>
+</ion-toolbar>
+
+<ion-content>
+<ion-card>
+
+
+  <ion-card-content>
+<ion-item  class="wrap">
+    <ion-thumbnail item-left>
+      <img src="https://lh4.googleusercontent.com/-n52YalQA5wM/TwyvUMG_SiI/AAAAAAAAAMg/tkxnN6hXHs0/s450/Ghibli-Totoro.png">
+    </ion-thumbnail>
+    <h2>Person Who</h2>
+    <p class="wrap">asdsadsadsafasdsadfasfa asfas fas asf saf saf saf asf</p>
+    <ion-note item-right><center>
+      1:33 PM <br>2/27/2016<br>Location, LO</center>
+      </ion-note>
+ 
+ </ion-item>
+  
+  </ion-card-content>
+
+</ion-card>
+</ion-content>
+
+<ion-toolbar dark position="bottom">
+<ion-input style="color:white" [(ngModel)]="message" type="text" value=""></ion-input>
+
+  <ion-buttons (click)="sendMessage()" start>
+   <button light >
+  <ion-icon name="send"></ion-icon></button>
+  </ion-buttons>
+</ion-toolbar>

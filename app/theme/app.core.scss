@@ -1,0 +1,57 @@
+// http://ionicframework.com/docs/v2/theming/
+$web_orange: orange;
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #4a87ee !default;
+$calm:                            #43cee6 !default;
+$balanced:                        #66cc33 !default;
+$energized:                       #f0b840 !default;
+$assertive:                       #ef4e3a !default;
+$royal:                           #8a6de9 !default;
+$dark:                            #444 !default;
+ion-content {
+	background-color: #f39c12;
+}
+.logo{
+  width: 80vw;}
+.page1 {
+margin-top:auto;
+margin-bottom:auto;
+width:100%;
+}
+  
+.whichLoginButton{
+  margin-top:2em;}
+  .wrap {
+white-space: normal;
+}
+  
+ .profileBackground{background-color:black;color:white;width:100vw;height:50vh}
+.profileImage{width:100vw;height:50vh;}
+
+ h2.profileName span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px 10px 10px 10px; 
+   position:absolute;
+    
+}
+
+h2.profileName span.spacer {
+   padding:0 5px;
+    background: rgba(0, 0, 0, 0);
+}
+ 
+ 
+ ion-toolbar.noBackground .toolbar-background{
+ background:#f39c12
+ }
+// App Shared Imports
+// --------------------------------------------------
+// These are the imports which make up the design of this app.
+// By default each design mode includes these shared imports.
+// App Shared Sass variables belong in app.variables.scss.
